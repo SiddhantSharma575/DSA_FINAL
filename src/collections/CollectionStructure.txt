@@ -1,0 +1,24 @@
+   COLLECTION - interface
+     - list -- interface
+         - ArrayList -- class
+         - LinkedList -- class
+         - Vector -- class
+             - Stack -- class
+
+     - queue -- interface
+       -- priorityQueue -- class
+       -- deque -- interface
+          -- ArrayDeque -- class
+     - set -- interface
+         -- hashset -- class
+         -- linkedhashset -- class
+         -- sortedset -- interface
+            -- Treeset -- class
+
+
+   MAP - interface
+      - Hashmap
+      - linkedhashmap
+      - hashtable
+      -- sortedMap - interface
+         - treemap
