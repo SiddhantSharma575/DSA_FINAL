@@ -25,6 +25,19 @@ public class SearchMatrix {
         System.out.println(false);
 
         // optimal
+        int i = 0;
+        int j = arr[0].length-1;
+        while (i < arr.length && j >= 0 ){
+            if (arr[i][j] == target){
+                System.out.println(true);
+            }
+            if (arr[i][j] > target){
+                j--;
+            }else {
+                i++;
+            }
+        }
+        System.out.println(false);
 
     }
 }
